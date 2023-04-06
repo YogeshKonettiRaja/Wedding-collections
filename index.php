@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#" style="color:rgb(246, 59, 121)">Kalayana Vedika</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto ">
+        <li class="nav-item ">
+          <a class="nav-link" href="#home" style="color:rgb(246, 59, 121)">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about" style="color:rgb(246, 59, 121)">About us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#plans" style="color:rgb(246, 59, 121)">Plans</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery" style="color:rgb(246, 59, 121)">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact" style="color:rgb(246, 59, 121)">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <h1 class="home_head text-center">WELCOME TO Kalayana Vedika</h1>
+    <p class="home_para">A Place Where Two Hearts Meets</p>
+    <div class="div">
+      <button class="btn">Book Here</button>
+      <button class="btn">Know More</button>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h1 class="text-center" style="color:white;text-shadow: 1px 2px 1px red; ">About us</h1>
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-12 col-md-6 col-lg-6">
+          <img src="./images/R.png" class="img-fluid" style="width:637px;" />
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-6 "
+          style="color:white;display:flex;justify-content: space-around;align-items: center;">
+          <p style="font-family:Verdana, Geneva, Tahoma, sans-serif">Meet your life partner with Kalayana Vedika App!
+            stylish,simple and unique! Be creative.Our app hosts profiles of millions of prospective and Eligible we are
+            doing this bussiness since 2010.We love to serve our customer accpording to their needs.We respect your
+            money.Please do not hesitate to contact us.We'll be happy to serve you-<span>By Kalyana Vedika</span> </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="plans">
+    <div class="kaga"><img src="./images/81lPXmb7q1L-removebg-preview-e1577356072708.png" style="width:150px;">
+      <h3>OUR RECEPIES</h3><img src="./images/81lPXmb7q1L-removebg-preview-e1577356072708.png" style="width:150px;">
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/maxresdefault (1).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">VEGETARIAN</h5>
+              <p class="card-text">upto 500 guests</p>
+              <p class="card-text">Rs.250 per plate</p>
+              <a href="#" class="btn btn-primary">Select</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/maxresdefault (1).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">NON-VEGETARIAN</h5>
+              <p class="card-text">upto 1000 guests</p>
+              <p class="card-text">Rs.300 per plate</p>
+              <a href="#" class="btn btn-primary">Select</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/maxresdefault (1).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BOTH VEG & NON VEG</h5>
+              <p class="card-text">upto 2000 guests</p>
+              <p class="card-text">Rs.325 per plate</p>
+              <a href="#" class="btn btn-primary">Select</a>
+            </div>
+          </div>
+        </div>
+          
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  
+  <section id="gallery">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-12">
+          <h1 class="text-center" style="color:white;text-shadow:2px 1px 1px red">Our Gallery</h1>
+          <marquee>
+            <h5 style="color:white;text-shadow:1px 2px 1px red;">&lt--STAGE DECORATION--&gt</h5>
+            <img src="./images/indian-wedding-stage-decoration-113415479.jpg" class="img-fluid">
+            <img src="./images/360_F_420230944_5zUmrpR5akRiCEZhhRtapMkpvd67Hw7C.jpg" class="img-fluid">
+            <img src="./images/9c95c0088be29dcdcd237ab68ab4c4d3.jpg" class="img-fluid">
+            <img src="./images/Wedding-Stage-Decor-51-1024x683.jpg" class="img-fluid">
+            <img src="./images/wedding-stage-indian-traditional-floral-decoration-60326760.jpg" class="img-fluid">
+          </marquee>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-12">
+          <marquee>
+            <h5 style="color:white;text-shadow:1px 2px 1px red;">&lt--LUNCH DECORATION--&gt</h5>
+            <img src="./images/83ec44e1df81efe111c1a8a106366799--cheap-wedding-reception-venues-reception-halls.jpg"
+              class="img-fluid">
+            <img src="./images/114-0-170-1310-9661-8690-509.jpg" class="img-fluid">
+            <img src="./images/Banqueting-768x397.jpg" class="img-fluid">
+            <img src="./images/wedding-white.jpg" class="img-fluid">
+            <img src="./images/Masonic-Ballroom-Of-Eau-Claire-Wedding-Eau-Claire-WI-6_main.1501265204.jpg"
+              class="img-fluid">
+          </marquee>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-12">
+          <marquee>
+            <h5 style="color:white;text-shadow:1px 2px 1px red;">&lt--PHOTO DECORATION--&gt</h5>
+            <img src="./images/OIP (6).jpg" class="img-fluid">
+            <img src="./images/OIP (4).jpg" class="img-fluid">
+            <img src="./images/OIP (5).jpg" class="img-fluid">
+            <img src="./images/OIP (6).jpg" class="img-fluid">
+            <img src="./images/OIP (7).jpg" class="img-fluid">
+          </marquee>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-12 col-md-6 col-lg-6 secondcol">
+          <h2 class="text-center head">GET IN TOUCH</h2>
+          <form method="post" action="index.php">
+            <div class="input-group">
+              <input type="text" class="form-control name" name="name" placeholder="Enter the name">
+            </div>
+            <br>
+            <div class="input-group">
+              <input type="email" class="form-control email" name="email" placeholder="Enter the  email">
+            </div>
+            <br>
+            <div class="input-group">
+              <input type="phonenumber" class="form-control" name="phonenumber" placeholder="Enter the phonenumber">
+            </div>
+            <br>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4"  name="textarea" placeholder="Enter the comments"></textarea>
+            </div>
+            <br>
+            <button type="submit" name="button" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-6 firstcol">
+          <ul class="add">
+            <li><a href=""><span class="material-symbols-outlined">
+                  pin_drop
+                </span><span>Kumbakonam,TamilNadu</span></a></li>
+            <li><a href="" class="b"><span class="material-symbols-outlined">
+                  call
+                </span><span>+91-8870047379</span></a></li>
+            <li><a href=""><span class="material-symbols-outlined">
+                  mail </span>
+                </span><span>Kalayanavedika@gmail.com</span></a></li>
+          </ul>
+          <ul class="social">
+            <li><a href="">facebook</a></li>
+            <li><a href="">instagram</a></li>
+            <li><a href="">whatapp</a></li>
+            <li><a href="">youtube</a></li>
+          </ul>
+          <h5>Copyright<span>@</span>2023-Kalayana Vedika</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<?php
+if(isset($_POST['button']))
+{
+    $servername="localhost";
+    $username="root";
+    $password="";
+    $db="kalayana";
+    $connect=mysqli_connect($servername,$username,$password,$db);
+    $name=$_POST['name'];
+    $email=$_POST["email"];
+    $phonenumber=$_POST['phonenumber'];
+    $textarea=$_POST['textarea'];
+    if(mysqli_query($connect,"create table vedika(name varchar(20),email varchar(30),phone int,text varchar(40))"));
+    {
+        echo "created table";
+    }
+    if(mysqli_query($connect,"insert into vedika(name,email,phone,text) values('$name','$email','$phonenumber','$textarea')"))
+    {
+        echo "<script>alert('Request Submitted Successfully')</script>";
+    }
+
+
+}
+?>
